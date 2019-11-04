@@ -1,0 +1,535 @@
+html{
+	background-color:rgba(23,23,23,1);
+}
+body{
+	width: 1920px;
+	height: 50px;
+	margin:auto;
+}
+.mediaViewInfo {
+	--web-view-name: Web 1920 – 1;
+	--web-view-id: Web_1920___1;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Web_1920___1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Web_1920___1 {
+	position: absolute;
+	box-sizing: border-box;
+	display:inline-block;
+	transform: translateX(-50%);
+	left: 50%;
+	/*background: #E5E5E5;*/
+	width: 1920px;
+	height: 2958px;
+	/*background-color: rgba(23,23,23,1);*/
+	overflow: hidden;
+	--web-view-name: Web 1920 – 1;
+	--web-view-id: Web_1920___1;
+	
+	--web-enable-deep-linking: true;
+}
+#About_Background_img {
+	opacity: 1;
+}
+.About_Background_img {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1279.167px;
+	left: 0px;
+	top: 65px;
+}
+#Press_background_img {
+	opacity: 1;
+}
+.Press_background_img {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 999.375px;
+	left: 0px;
+	top: 1959px;
+}
+nav{
+	z-index:1;
+	position: fixed;
+	background-color: rgb(51, 51, 51);
+	width:1920px;
+	height:65px;
+	--web-center-horizontally: true;
+}
+/*.Nav_Bar {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 65px;
+	left: 41px;
+	top: 0px;
+}*/
+.Login_btn {
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	height: 35px;
+	left: 1788px;
+	top: 15px;
+}
+#Log_in {
+	position: absolute;
+	left: 1810px;
+	top: 21px;
+	overflow: visible;
+	width: 43px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+#Home {
+	position: absolute;
+	left: 225px;
+	top: 20px;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Home:hover{
+	color:crimson;
+}
+#Products {
+	position: absolute;
+	left: 330px;
+	top: 20px;
+	overflow: visible;
+	width: 81px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Products:hover{
+	color:crimson;
+}
+#About {
+	position: absolute;
+	left: 460px;
+	top: 20px;
+	overflow: visible;
+	width: 57px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#About:hover{
+	color:crimson;
+}
+.tesla_logo_text_png_14 {
+	position: absolute;
+	overflow: visible;
+	width: 171px;
+	height: 34px;
+	left: 14px;
+	top: 17px;
+}
+.tesla_logo_text_png_14  :hover{
+	transform: scale(1.01);
+	filter: drop-shadow(0 0 0.75rem crimson);
+	z-index:10;
+}
+#Title {
+	position: absolute;
+	left: 822.5px;
+	top: 135px;
+	overflow: visible;
+	width: 276px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#Sub_title {
+	position: absolute;
+	left: 570px;
+	top: 302px;
+	overflow: visible;
+	width: 781px;
+	white-space: nowrap;
+	line-height: 50px;
+	margin-top: -5px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#Paragraph {
+	position: absolute;
+	left: 415.5px;
+	top: 455px;
+	overflow: hidden;
+	width: 1090px;
+	height: 345px;
+	line-height: 50px;
+	margin-top: -10px;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.05px;
+}
+.About_line {
+	overflow: visible;
+	position: absolute;
+	width: 1364px;
+	height: 3px;
+	left: 278px;
+	top: 252px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Read_More_btn {
+	position: absolute;
+	overflow: visible;
+	width: 180px;
+	height: 66px;
+	left: 870px;
+	top: 870px;
+}
+.Read_More_btn:hover{
+	transform:scale(1.01);
+}
+#Read_more {
+	position: absolute;
+	left: 885px;
+	top: 881px;
+	overflow: visible;
+	width: 148px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#Service_Center {
+	position: absolute;
+	left: 791px;
+	top: 1555px;
+	overflow: visible;
+	width: 339px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+.Service_center_img {
+	position: absolute;
+	overflow: visible;
+	width: 1640px;
+	height: 400px;
+	left: 140px;
+	top: 1672px;
+}
+.Service_center_line {
+	overflow: visible;
+	position: absolute;
+	width: 1640px;
+	height: 5px;
+	left: 140px;
+	top: 2069px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Service_Center_text_block {
+	opacity: 0.5;
+}
+.Service_Center_text_block {
+	overflow: visible;
+	position: absolute;
+	width: 812px;
+	height: 400px;
+	left: 140px;
+	top: 1672px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Service_center_text_block_blur {
+	filter: blur(5px);
+}
+.Service_center_text_block_blur {
+	opacity: .5;
+	overflow: visible;
+	position: absolute;
+	width: 812px;
+	height: 400px;
+	left: 140px;
+	top: 1672px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Service_center_text {
+	filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	left: 222px;
+	top: 1829px;
+	overflow: hidden;
+	width: 570px;
+	height: 85px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#Press {
+	position: absolute;
+	left: 659.501px;
+	top: 2192px;
+	overflow: visible;
+	width: 118px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#North_America {
+	position: absolute;
+	left: 941.499px;
+	top: 2172px;
+	overflow: visible;
+	width: 202px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#Australia_and_Asia {
+	position: absolute;
+	left: 941.499px;
+	top: 2412px;
+	overflow: visible;
+	width: 245px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#China {
+	position: absolute;
+	left: 941.499px;
+	top: 2532px;
+	overflow: visible;
+	width: 78px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+}
+#Europe {
+	position: absolute;
+	left: 941.499px;
+	top: 2292px;
+	overflow: visible;
+	width: 97px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#Press_tesla_com {
+	position: absolute;
+	left: 941.499px;
+	top: 2212px;
+	overflow: visible;
+	width: 229px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#APACPress_tesla_com {
+	position: absolute;
+	left: 941.499px;
+	top: 2452px;
+	overflow: visible;
+	width: 303px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#EUPress_tesla_com {
+	position: absolute;
+	left: 941.499px;
+	top: 2332px;
+	overflow: visible;
+	width: 265px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#China_Press_tesla_com {
+	position: absolute;
+	left: 941.499px;
+	top: 2572px;
+	overflow: visible;
+	width: 318px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.Press_line {
+	overflow: visible;
+	position: absolute;
+	width: 440px;
+	height: 5px;
+	transform: matrix(1,0,0,1,639.2007,2391.9999) rotate(90deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Foott {
+	opacity: 50%;
+}
+.Foott {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 27px;
+	left: -1px;
+	top: 2707px;
+}
+.Tesla_factory_img {
+	overflow: visible;
+	position: absolute;
+	width: 1640px;
+	height: 400px;
+	left: 140px;
+	top: 1110px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.tesla_factory_line {
+	overflow: visible;
+	position: absolute;
+	width: 1640px;
+	height: 5px;
+	left: 140px;
+	top: 1507px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Tesla_factory_text_block {
+	opacity: 0.4;
+	filter: blur(0px);
+}
+.Tesla_factory_text_block {
+	overflow: visible;
+	position: absolute;
+	width: 812px;
+	height: 400px;
+	left: 968px;
+	top: 1111px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Tesla_factory_text_block_blur {
+	filter: blur(5px);
+}
+.Tesla_factory_text_block_blur {
+	opacity: .5;
+	overflow: visible;
+	position: absolute;
+	width: 812px;
+	height: 400px;
+	left: 968px;
+	top: 1110px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Tesla_Factory {
+	position: absolute;
+	left: 808.5px;
+	top: 993px;
+	overflow: visible;
+	width: 304px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#Tesla_factory_text {
+	filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	left: 1169px;
+	top: 1230px;
+	overflow: hidden;
+	width: 521px;
+	height: 161px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
